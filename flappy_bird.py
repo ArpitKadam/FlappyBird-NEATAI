@@ -6,7 +6,6 @@ import neat
 import visualize
 import pickle
 pygame.font.init()
-import pickle
 
 WIN_WIDTH = 650
 WIN_HEIGHT = 650
