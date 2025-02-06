@@ -7,6 +7,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/ArpitKadam/Insurance-Fraud-Detection)](https://github.com/ArpitKadam/Insurance-Fraud-Detection/issues)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-green.svg)
+[![Pygame](https://img.shields.io/badge/Pygame-2.1.0-blue)](https://www.pygame.org/)
+[![NEAT-Python](https://img.shields.io/badge/NEAT--Python-2.4.0-yellow)](https://github.com/CodeReclaimers/neat-python)
 
 </div>
 
@@ -25,6 +27,18 @@ FlappyBird-NEATAI is an AI-powered Flappy Bird game that uses the **NEAT (NeuroE
 - **NEAT**: The NeuroEvolution of Augmenting Topologies (NEAT) algorithm is used to train the AI agents.
 - **Pygame**: Pygame is used for creating the game environment, rendering images, and handling user input.
 - **NEAT-Python**: The NEAT algorithm is implemented using the `neat-python` library.
+## Directory
+
+Directory structure:
+```
+└── FlappyBird-NEATAI/
+    ├── README.md
+    ├── best_genome.pkl
+    ├── best_player.py
+    ├── config-feedforward.txt
+    ├── flappy_bird.py
+    └── imgs/
+```
 
 ## Installation
 To run this project, you need to install Python and the required libraries.
@@ -81,7 +95,8 @@ The NEAT algorithm parameters can be configured in the ```config-feedforward.txt
 - Pygame: For providing the library to handle game rendering and user inputs.
 - NEAT-Python: For the powerful implementation of the NEAT algorithm.
 
-
+## License
+This project is licensed under [MIT License](https://github.com/ArpitKadam/FlappyBird-NEATAI/blob/main/LICENSE)
 
 
 
